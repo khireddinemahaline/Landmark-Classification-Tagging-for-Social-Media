@@ -43,3 +43,7 @@ python -c "import torch;print(torch.cuda.is_available())
 pip install jupyterlab 
 jupyter lab
 ```
+
+# 5. Accurcy Result
+![cnn_from_scratch.png](cnn_from_scratch.png)
+![transfer_learning.png](transfer_learning.png)
