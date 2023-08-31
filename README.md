@@ -19,3 +19,27 @@ If no location metadata for an image is available, one way to infer the location
 `1. cnn_from_scratch.ipynb: Create a CNN from scratch` </br>
 `2. transfer_learning.ipynb: Use transfer learning` </br>
 `3. app.ipynb: Deploy your best model in an app. At the end of this notebook you will also generate the archive file that you will submit for review` </br>
+
+# 4.  Dependencies
+Alternatively, you can develop your project locally on your computer. This setup requires a bit of familiarity with creating a working deep learning environment. While things should work out of the box.
+**1.Create a new conda environment with Python 3.7.6:**
+ ```
+conda create --name Landmark_Classification python=3.7.6 pytorch=1.11.0 torchvision torchaudio cudatoolkit -c pytorch
+```
+**2.Activate the environment:**
+```
+conda activate Landmark_Classification
+```
+**3.Install the required packages for the project:**
+```
+pip install -r requirements.txt
+```
+**4.Test that the GPU is working (execute this only if you have a NVIDIA GPU on your machine, which Nvidia drivers properly installed)**
+```
+python -c "import torch;print(torch.cuda.is_available())
+```
+**5.Install and open jupyter lab:**
+```
+pip install jupyterlab 
+jupyter lab
+```
