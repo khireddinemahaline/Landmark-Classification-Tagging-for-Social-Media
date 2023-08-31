@@ -5,5 +5,5 @@ Photo sharing and photo storage services like to have location data for each pho
 If no location metadata for an image is available, one way to infer the location is to detect and classify a discernible landmark in the image. Given the large number of landmarks across the world and the immense volume of images that are uploaded to photo sharing services, using human judgment to classify these landmarks would not be feasible.
 
 #### In this project, we will take the first steps towards addressing this problem by building models to automatically predict the location of the image based on any landmarks depicted in the image. we will go through the machine learning design process end-to-end: performing data preprocessing, designing and training CNNs, comparing the accuracy of different CNNs, and deploying an app based on the best CNN you trained.
-![Landmark-Classification-Tagging-for-Social-Media](https://learn.udacity.com/nanodegrees/nd189-aws-fundamentals/parts/cd1821/lessons/094c50bc-b8c7-4d43-9743-0a8dad80b75e/concepts/e24d1ec3-41ac-41e5-bd2f-d9c4b4b826b3#:~:text=In%20this%20project%2C%20you%20will%20take,on%20the%20best%20CNN%20you%20trained.)
+![Landmark-Classification-Tagging-for-Social-Media](landmarks-example.png)
 
