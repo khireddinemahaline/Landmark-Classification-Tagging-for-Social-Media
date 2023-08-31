@@ -12,3 +12,10 @@ If no location metadata for an image is available, one way to infer the location
 #### 1. Create a CNN to Classify Landmarks (from Scratch) - Here, you'll visualize the dataset, process it for training, and then build a convolutional neural network from scratch to classify the landmarks. You'll also describe some of your decisions around data processing and how you chose your network architecture. You will then export your best network using Torch Script.
 #### 2. Create a CNN to Classify Landmarks (using Transfer Learning) - Next, you'll investigate different pre-trained models and decide on one to use for this classification task. Along with training and testing this transfer-learned network, you'll explain how you arrived at the pre-trained network you chose. You will also export your best transfer learning solution using Torch Script
 #### 3. Deploy your algorithm in an app - Finally, you will use your best model to create a simple app for others to be able to use your model to find the most likely landmarks depicted in an image. You'll also test out your model yourself and reflect on the strengths and weaknesses of your model.
+
+# 3. Starter Code and Instructions
+#### Starter code is provided to you in the project workspace, and is also available for you to download if you prefer to work locally. Please follow the detailed instructions contained in the following three notebooks: </br>
+
+`cnn_from_scratch.ipynb: Create a CNN from scratch` </br>
+`transfer_learning.ipynb: Use transfer learning` </br>
+`app.ipynb: Deploy your best model in an app. At the end of this notebook you will also generate the archive file that you will submit for review` </br>
