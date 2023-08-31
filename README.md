@@ -16,6 +16,6 @@ If no location metadata for an image is available, one way to infer the location
 # 3. Starter Code and Instructions
 #### Starter code is provided to you in the project workspace, and is also available for you to download if you prefer to work locally. Please follow the detailed instructions contained in the following three notebooks: </br>
 
-`cnn_from_scratch.ipynb: Create a CNN from scratch` </br>
-`transfer_learning.ipynb: Use transfer learning` </br>
-`app.ipynb: Deploy your best model in an app. At the end of this notebook you will also generate the archive file that you will submit for review` </br>
+`1. cnn_from_scratch.ipynb: Create a CNN from scratch` </br>
+`2. transfer_learning.ipynb: Use transfer learning` </br>
+`3. app.ipynb: Deploy your best model in an app. At the end of this notebook you will also generate the archive file that you will submit for review` </br>
