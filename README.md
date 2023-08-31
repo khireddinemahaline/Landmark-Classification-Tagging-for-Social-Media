@@ -45,5 +45,7 @@ jupyter lab
 ```
 
 # 5. Accurcy Result
-![cnn_from_scratch.png](cnn_from_scratch.png)
+**cnn_from_scratch** runs the testing code in the notebook and obtains a test accuracy of 52% 
+![cnn_from_scratch.png](cnn_from_scratch.png)   </br>
+**transfer_learning** runs the testing code in the notebook and obtains a test accuracy of 65%  
 ![transfer_learning.png](transfer_learning.png)
